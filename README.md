@@ -13,11 +13,11 @@ All responses will have the form
 
 Subsequent response definitions will only detail the expected value of the `data field`
 
-### List all devices
+### List all sensor devices
 
 **Definition**
 
-`GET /devices`
+`GET /sensordata`
 
 **Response**
 
@@ -97,7 +97,7 @@ If the gyroscope with the given gyrscope_id already exists, the existing device 
 }
 ```
 
-## Delete a device
+## Delete sensor data
 
 **Definition**
 
